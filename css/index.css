@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul {
   margin: 0;
   padding: 0;
@@ -7,6 +9,16 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul {
   list-style: none;
 }
 
+body {
+  font-family: 'Bebas Neue', cursive;
+  width: 100%;
+}
+
+.divTop {
+  background-image: url("/images/background-pricipal.jpg");
+  height: 732px;
+}
+
 .containerNav {
     display: flex;
     justify-content: space-between;
@@ -14,5 +26,84 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul {
 
 .logoTopo {
     width: 170px;
-    margin: 20px 0 0 50px;
+    margin: 25px 0 0 50px;
+}
+
+.divTopRightMenu {
+  display: flex;
+  width: 300px;
+  justify-content: start;
+}
+
+.selectTopMenu {
+  margin-top: 27px;
+  margin-right: 40px;
+  width: 110px;
+  height: 35px;
+  text-align: center;
+}
+
+.buttonTopMenu{
+  margin-top: 27px;
+  margin-right: 40px;
+  width: 80px;
+  height: 35px;
+  background-color: #e50914;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 175px;
+  padding-left: 30px;
+}
+
+.mainContent h1 {
+  font-size: 4rem;
+  width: 800px;
+  text-align: center;
+  color: #fff;
+}
+
+.mainContent h2 {
+  font-size: 1.625rem;
+  width: 800px;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0 20px 0;
+}
+
+.mainContent h3 {
+  color: #fff;
+  width: 800px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.emailTop {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.inputSingInTop {
+  background-color: white;
+  width: 500px;
+  height: 70px;
+}
+
+.buttonEmailTop {
+  width: 211px;
+  background-color: #f40612;
+  font-size: 1.625rem;
+  font-weight: 400;
+  border: none;
+  margin-left: 1px;
+  color:#fff;
 }
